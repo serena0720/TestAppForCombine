@@ -6,7 +6,7 @@
 //
 
 struct Photo: Identifiable, Decodable {
-    var id: String
-    var description: String?
-    var urls: Urls
+  var id: String
+  var description: String?
+  var urls: Urls
 }

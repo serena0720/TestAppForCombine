@@ -6,6 +6,6 @@
 //
 
 struct Urls: Decodable {
-    var small: String
-    var full: String
+  var small: String
+  var full: String
 }

@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct TestAppForCombineApp: App {
-    @StateObject private var viewModel = PhotoViewModel()
-    
-    var body: some Scene {
-        WindowGroup {
-            ContentView(viewModel: viewModel)
-        }
+//  @StateObject private var viewModel = PhotoViewModel()
+  private var viewModel = ObservablePhotoViewModel()
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView(viewModel: viewModel)
     }
+  }
 }
